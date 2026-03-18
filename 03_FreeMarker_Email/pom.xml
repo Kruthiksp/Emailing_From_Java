@@ -5,15 +5,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.kruthik.javaEmail</groupId>
-	<artifactId>01_SMTP_Email</artifactId>
+	<artifactId>02_Email_With_Attachment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>01_SMTP_Email</name>
+	<name>02_Email_With_Attachment</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.release>17</maven.compiler.release>
 		<jakarta.mail.version>2.0.2</jakarta.mail.version>
+		<freemarker.version>2.3.34</freemarker.version>
 	</properties>
 
 	<dependencies>
@@ -21,6 +22,12 @@
 			<groupId>com.sun.mail</groupId>
 			<artifactId>jakarta.mail</artifactId>
 			<version>${jakarta.mail.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>${freemarker.version}</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
