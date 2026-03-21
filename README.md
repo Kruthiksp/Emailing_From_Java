@@ -6,4 +6,5 @@
     <li>Sending Basic Email From SpringBoot Application</li>
     <li>Sending Freemarker Email From SpringBoot Application</li>
     <li>Sending User sent Attachment through Email From SpringBoot Application</li>
+    <li>MailPit Server</li>
 </ul>
